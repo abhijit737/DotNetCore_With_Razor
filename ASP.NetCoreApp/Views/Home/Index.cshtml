@@ -1,0 +1,294 @@
+﻿@{
+    Layout = null; // This disables the use of a layout page, you can change this if needed.
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijit More</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/styles.css"> <!-- Make sure to adjust the path if needed -->
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB; /* Sky Blue */
+            color: #FFFFFF; /* White */
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #663399; /* Purple */
+        }
+
+            .navbar a {
+                color: #FFFFFF; /* White */
+            }
+
+                .navbar a:hover {
+                    color: #FFD700; /* Gold */
+                }
+
+        /* Hero Section */
+        .hero {
+            background-color: #663399; /* Purple */
+        }
+
+        /* About Section */
+        .about {
+            background-color: #FFFFFF; /* White */
+        }
+
+        /* Projects Section */
+        .projects {
+            background-color: #663399; /* Purple */
+        }
+
+        /* Skills Section */
+        .skills {
+            background-color: #FFFFFF; /* White */
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #663399; /* Purple */
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #000000; /* Black */
+        }
+
+        .centered-div {
+            text-align: center; /* Center text horizontally */
+            background-color: #f0f0f0; /* Background color for the div */
+            padding: 20px; /* Add padding as needed */
+            border: 1px solid #ccc; /* Add border for visibility */
+            border-radius: 8px; /* Add rounded corners */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation Bar -->
+    <header class="navbar p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+           @*  <a href="#" class="text-white text-2xl font-semibold">Abhijit More</a>
+            <ul class="space-x-4">
+                <li><a href="#about" class="text-white">About</a></li>
+                <li><a href="#projects" class="text-white">Projects</a></li>
+                <li><a href="#skills" class="text-white">Skills</a></li>
+                <li><a href="#contact" class="text-white">Contact</a></li>
+            </ul>
+            *@ <!-- Social Media Links -->
+          @*   <div class="space-x-4">
+                <a href="#" class="text-white">
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm1.5 17.48V7.52a.5.5 0 0 0-.84-.36L8.7 11.64a.5.5 0 0 0 0 .72l4.96 4.48a.5.5 0 0 0 .84-.36z" /></svg>
+                </a>
+                <a href="#" class="text-white">
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm2 16h-4v-1.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V16zm-4-3.5V7a3 3 0 0 1 6 0v5.5c0 .28-.22.5-.5.5h-5c-.28 0-.5-.22-.5-.5z" /></svg>
+                </a>
+                <a href="#" class="text-white">
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm2 16h-4v-4c0-1.1.9-2 2-2s2 .9 2 2v4z" /></svg>
+                </a>
+            </div> *@
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero text-white py-16">
+
+            <div class="md:w-1/2 text-center md:text-middle">
+            <a href="https://www.example.com">
+                <img src="your-image-url.jpg" alt="Abhijit's Profile'">
+            </a>
+
+                <h1 class="text-4xl font-bold">Hi, I'm Abhijit More</h1>
+                <p class="mt-4 text-lg">A Software Engineer with 6 months training experience in CDAC.</p>
+                <br>
+                <div class="mt-4">
+                <a href="https://www.linkedin.com/in/abhijit-more-/" target="_blank" class="text-gray-300 hover:text-white mx-2">
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/abhijit737" target="_blank" class="text-gray-300 hover:text-white mx-2">
+                        GitHub
+                    </a>
+                <a href="
+https://drive.google.com/file/d/1cdh-QLnKlN0iX8H4R8JjW5GGyA5QdHRc/view?usp=drivesdk
+" download="SoftwareDev_AbhijitMore.pdf">Download Resume</a>
+
+                </div>
+                <br>
+                <a href="#contact"
+                   class="mt-4 md:mt-8 bg-yellow-500 text-blue-800 py-2 px-6 rounded-full font-semibold hover:bg-yellow-400 transition duration-300">
+                    Contact
+                    Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">About Me</h2>
+            <p class="text-gray-600 text-lg leading-relaxed">
+                I'm a passionate software engineer with 6 months of experience in developing web and mobile
+                applications. I love solving complex problems and building elegant solutions that make a difference in
+                people's lives. In my free time, I enjoy reading tech blogs, contributing to open-source projects, and
+                playing the guitar.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="~/images/project1.jpg" alt="Project 1" class="w-full h-56 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Ebook Management</h3>
+                        <p class="text-gray-600">Project based on CRUD Operations. It was Priiladges based Ecommerse project.</p>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="~/images/project2.jpg" alt="Project 2" class="w-full h-56 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">CMS Project</h3>
+                        <p class="text-gray-600">Project based on stock inventory management, It is Confidential Project.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="~/images/project2.jpg" alt="Project 2" class="w-full h-56 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Employee Management</h3>
+                        <p class="text-gray-600">Project based on CRUD operation. Angular 16, .Net Core 6, MySQL .</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills text-white py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Skill Card 1 -->
+                <div class="bg-purple-900 rounded-lg p-4 text-center">
+                    <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+                    <p class="text-gray-300">HTML, CSS, JavaScript, Angular</p>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="bg-purple-900 rounded-lg p-4 text-center">
+                    <h3 class="text-xl font-semibold mb-2">Database</h3>
+                    <p class="text-gray-300">MYSQL, Oracle, SQL Server, MongoDB</p>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="bg-purple-900 rounded-lg p-4 text-center">
+                    <h3 class="text-xl font-semibold mb-2">Backend Development</h3>
+                    <p class="text-gray-300">Dotnet core 6, WEB API, DbCotext, DI, Entity Framework</p>
+                </div>
+
+                <!-- Skill Card 4 -->
+                <div class="bg-purple-900 rounded-lg p-4 text-center">
+                    <h3 class="text-xl font-semibold mb-2">DevOps</h3>
+                    <p class="text-gray-300">Docker, Git, Github</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-8 sm:py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">Contact Me</h2>
+            <div class="max-w-md mx-auto">
+                <!-- Contact Form (Pseudocode) -->
+                <form id="contact-form" onsubmit="sendMessage(event)">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-semibold">Name</label>
+                        <input type="text" id="name" name="name"
+                               class="w-full px-4 py-2 rounded border border-gray-300 focus:border-purple-700 focus:outline-none"
+                               placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-semibold">Email</label>
+                        <input type="email" id="email" name="email"
+                               class="w-full px-4 py-2 rounded border border-gray-300 focus:border-purple-700 focus:outline-none"
+                               placeholder="you@example.com">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 font-semibold">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                                  class="w-full px-4 py-2 rounded border border-gray-300 focus:border-purple-700 focus:outline-none"
+                                  placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit"
+                            class="bg-purple-900 text-white py-2 px-6 md:py-3 md:px-8 rounded-full font-semibold hover:bg-purple-700 transition duration-300">
+                        Send
+                        Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center py-4">
+        <div class="container mx-auto">
+            <p>&copy; @DateTime.Now.Year Abhijit More</p>
+            <!-- LinkedIn and GitHub links -->
+            <div class="mt-4">
+                <a href="https://www.linkedin.com/in/abhijit-more-/" target="_blank" class="text-gray-300 hover:text-white mx-2">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/abhijit737" target="_blank" class="text-gray-300 hover:text-white mx-2">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        function sendMessage(event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+
+            // Get the form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Send the email using Email.js
+            emailjs.send('abhijitm737@gmail.com', 'abhijitm737@gmail.com', {
+                from_name: name,
+                reply_to: email,
+                message: message,
+            }, 'abhijitm737@gmail.com')
+                .then(function (response) {
+                    console.log('Email sent successfully:', response);
+                    alert('Your message has been sent successfully!'); // Display a success message
+                })
+                .catch(function (error) {
+                    console.error('Email sending failed:', error);
+                    alert('An error occurred while sending your message. Please try again later.'); // Display an error message
+                });
+
+            // Clear the form fields
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('message').value = '';
+        }
+    </script>
+</body>
+</html>

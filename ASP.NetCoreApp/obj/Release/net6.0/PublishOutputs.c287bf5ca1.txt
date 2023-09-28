@@ -1,0 +1,7 @@
+D:\Angular.Net_SQLserver_CRUD\EmpManagementAPI\ASP.NetCoreApp\ASP.NetCoreApp\obj\Release\net6.0\PubTmp\Out\ASP.NetCoreApp.exe
+D:\Angular.Net_SQLserver_CRUD\EmpManagementAPI\ASP.NetCoreApp\ASP.NetCoreApp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Angular.Net_SQLserver_CRUD\EmpManagementAPI\ASP.NetCoreApp\ASP.NetCoreApp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Angular.Net_SQLserver_CRUD\EmpManagementAPI\ASP.NetCoreApp\ASP.NetCoreApp\obj\Release\net6.0\PubTmp\Out\ASP.NetCoreApp.dll
+D:\Angular.Net_SQLserver_CRUD\EmpManagementAPI\ASP.NetCoreApp\ASP.NetCoreApp\obj\Release\net6.0\PubTmp\Out\ASP.NetCoreApp.deps.json
+D:\Angular.Net_SQLserver_CRUD\EmpManagementAPI\ASP.NetCoreApp\ASP.NetCoreApp\obj\Release\net6.0\PubTmp\Out\ASP.NetCoreApp.runtimeconfig.json
+D:\Angular.Net_SQLserver_CRUD\EmpManagementAPI\ASP.NetCoreApp\ASP.NetCoreApp\obj\Release\net6.0\PubTmp\Out\ASP.NetCoreApp.pdb
